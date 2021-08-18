@@ -1,12 +1,14 @@
-import Link from 'next/link'
+import Link from "next/link";
+import { VFC } from "react";
 
-export default function IndexPage() {
+const IndexPage: VFC = () => {
   return (
     <div>
-      Hello World.{' '}
+      Hello World.{" "}
       <Link href="/about">
         <a>About</a>
       </Link>
     </div>
-  )
-}
+  );
+};
+export default IndexPage;

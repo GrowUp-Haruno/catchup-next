@@ -1,3 +1,7 @@
-export default function AboutPage() {
-  return <div>About us</div>
-}
+import { VFC } from "react";
+
+const AboutPage: VFC = () => {
+  return <div>About us</div>;
+};
+
+export default AboutPage;
